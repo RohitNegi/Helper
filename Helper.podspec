@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Rohit Negi" => "ROHITNEGI017@GMAIl.com" }
   spec.platform     = :ios, "12.0"
   spec.source       = { :http => 'file:' + __dir__ + "/" }
-  # spec.source       = { :git => "https://github.com/YOUR_ACCOUNT/YOUR_REPO.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/RohitNegi/Helper.git", :tag => "#{spec.version}" }
   spec.source_files = "Helper Framework/Source/*.{swift}"
   spec.swift_version = "5.0"
 end
