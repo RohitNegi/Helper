@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
   spec.source       = { :http => 'file:' + __dir__ + "/" }
   spec.source       = { :git => "https://github.com/RohitNegi/Helper.git", :tag => "#{spec.version}" }
-  spec.source_files = "Helper Framework/Source/"
+  spec.source_files = "Helper Framework"
   spec.swift_version = "5.0"
 end
